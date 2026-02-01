@@ -1,0 +1,9 @@
+employee_id,name,email,ssn,department,position,annual_salary,start_date
+1001,John Doe,john.doe@company.com,123-45-6789,HR,HR Manager,"$84,000.00",1987-02-14
+1002,Jane Smith,jane.smith12@company.com,333-82-6772,Finance,Financial Analyst,"$136,000.00",1996-07-04
+1003,Bob Builder,bob.builder@company.com,463-05-0968,IT,IT Technician,"$70,000.00",2001-09-11
+1004,Charlie Brown,charlie.brown@company.com,444-75-7993,Marketing,Sales Associate,"-$9,000.00",2002-05-15
+1005,Bruce Wayne,bwbatman@company.com,000-00-0000,Research,Research Intern,"$7,600,000.00",2003-07-19
+1006,Alice Wonderland,alice.wonderland@company.com,987-65-4321,Marketing,Regional Sales Manager,"$93,000.00",2003-08-19
+1007,Johnny DROP TABLE);,jdrop@company.com,666-69-1738,IT,System Administrator,"$25,000.00",2020-03-17
+1008,Bob Builder,bob.builder@company.com,463-05-0968,IT,IT Technician,"$70,000.00",2001-09-11
