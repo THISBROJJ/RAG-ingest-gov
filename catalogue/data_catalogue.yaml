@@ -1,0 +1,20 @@
+datasets:
+  your_dataset_name:            # Replace with your dataset's unique name
+    description: ""                     # Short description of the dataset
+    owner: ""                           # Choose one department: HR, Finance, Marketing, IT
+    contact: ""                         # Contact email of the data owner or steward
+    datatype: ""                        # Choose one: Table, Document, Log
+    location:
+      raw: ""                           # Path to raw dataset (e.g., data/raw/example.csv)
+      processed: ""                     # Path to processed dataset (e.g., data/processed/example.csv)
+    classification: ""                  # Choose one: PUBLIC, INTERNAL, CONFIDENTIAL
+    contains_pii: false                 # true if dataset contains personal identifiable information
+    pii_fields: []                      # List of PII columns, e.g., ["name", "email"]
+    allowed_uses: []                    # Choose from: Payroll, HR Analytics, Financial Reporting,
+                                        # Fraud Detection, Public Support, AI Chatbot, Internal Knowledge Base
+    llm_policy:
+      allowed: false                     # true if dataset can be used in AI/LLM, default is false
+      reason: ""                         # If not allowed, explain why
+    retention:
+      raw_days: 0                        # Number of days to keep raw data
+      processed_days: 0                  # Number of days to keep processed data
