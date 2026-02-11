@@ -5,4 +5,9 @@ Enforces rules based on dataset classification and PII presence.
 
 Interacts with outside systems, e.g., authentication services, to manage access.
 
+Manages LLM usage policies for datasets. 
+Allowed use cases.
+Raises exceptions for policy violations.
+
+
 """
