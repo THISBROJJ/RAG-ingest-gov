@@ -1,0 +1,25 @@
+datasets:
+  bad_public_pii_dataset:
+    description: Invalid dataset with PII but classified as PUBLIC
+    owner: HR
+    contact: hr-data@company.com
+    datatype: Table
+    location:
+      raw: data/raw/hr_employees.csv
+      processed: "REPLACE ME WHEN PROCESSED"
+    classification: PUBLIC # This should be CONFIDENTIAL if contains_pii is true
+    contains_pii: true
+    pii_fields:
+      - name
+      - email
+      - ssn
+      - salary
+    allowed_uses:
+      - Payroll
+      - HR Analytics
+    llm_policy:
+      allowed: true # This should be false if contains_pii is true
+      reason: "Contains PII"
+    retention:
+      raw_days: 7
+      processed_days: 365
